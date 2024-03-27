@@ -1,10 +1,17 @@
+// App.jsx
+// App.jsx
+import Chai from "./chai";
+
 
 function App() {
-  
+  const username = "chai aur code"
 
   return (
-    <h1>Chai aur react with vite</h1>
-  )
+    <div>
+      <Chai />
+      <h1>chai aur react {username}</h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
